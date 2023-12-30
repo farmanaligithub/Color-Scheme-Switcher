@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/icons/icon.svg" type="image/x-icon">
+    <title>Color Scheme Switcher</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="inner-container">
+            <h1>Color Scheme Switcher</h1>
+        </div>
+    </header>
+
+    <!-- SECTION - COLORS -->
+    <section>
+        <div class="inner-container">
+            <h2>Click to change the background color</h2>
+
+            <!-- colors -->
+            <div class="colors">
+                <div class="color" onclick="changeBackgroundColor('var(--color-1)')"></div>
+                <div class="color" onclick="changeBackgroundColor('var(--color-2)')"></div>
+                <div class="color" onclick="changeBackgroundColor('var(--color-3)')"></div>
+                <div class="color" onclick="changeBackgroundColor('var(--color-4)')"></div>
+                <div class="color" onclick="changeBackgroundColor('var(--color-5)')"></div>
+            </div>
+
+            <div class="button">
+                <button class="btn" onclick="changeBackgroundColor('var(--background-color)')">Default</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
