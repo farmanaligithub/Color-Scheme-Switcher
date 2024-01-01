@@ -150,7 +150,6 @@ header {
 
     .color:nth-child(1) {
         grid-column: 2/span 2;
-        width: 250px;
     }
 
     .color:nth-child(2) {
@@ -196,5 +195,35 @@ header {
     .color {
         width: 250px;
         height: 50px;
+    }
+}
+
+/* FOR MINI FOLDABLE MOBILE PHONES */
+
+@media screen and (max-width: 330px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 16px 0;
+    }
+
+    h2 {
+        font-size: 12px;
+        margin: 16px 0;
+    }
+
+    .color {
+        width: 180px;
+    }
+
+    .button {
+        margin: 16px 0;
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
     }
 }
